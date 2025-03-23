@@ -10,44 +10,6 @@ async function loadData() {
     }
 }
 
-// Terminal typing effect
-function typeText(text, element, speed = 50) {
-    let index = 0;
-    element.textContent = '';
-    
-    return new Promise(resolve => {
-        function type() {
-            if (index < text.length) {
-                element.textContent += text.charAt(index);
-                index++;
-                setTimeout(type, speed);
-            } else {
-                resolve();
-            }
-        }
-        type();
-    });
-}
-
-// Terminal commands sequence
-const commands = [
-    'whoami',
-    'cat skills.txt',
-    'ls projects/',
-    './start_journey.sh'
-];
-
-async function runTerminalSequence() {
-    const typingElement = document.getElementById('typingText');
-    for (const command of commands) {
-        await typeText(command, typingElement);
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        typingElement.textContent = '';
-        await new Promise(resolve => setTimeout(resolve, 500));
-    }
-    runTerminalSequence(); // Loop the sequence
-}
-
 // Modal handling
 function setupModals() {
     const modalContainer = document.getElementById('modalContainer');
@@ -176,7 +138,9 @@ function renderSocialLinks(contact) {
     const iconMap = {
         twitter: '🐦',
         mastodon: '🐘',
-        reddit: '👽'
+        reddit: '👽',
+        github: '🐙',
+        email: '📧'
     };
 
     Object.entries(social).forEach(([platform, url]) => {
@@ -205,9 +169,18 @@ async function initializePage() {
         heroContent.appendChild(bioText);
     }
 
+    // Update about section
+    const aboutContent = document.getElementById('aboutContent');
+    if (aboutContent && data.personalInfo) {
+        aboutContent.innerHTML = `
+            <p>${data.personalInfo.bio}</p>
+            <p>Currently: ${data.personalInfo.education}</p>
+            <p>I'm passionate about creating innovative solutions that combine hardware and software technologies.</p>
+        `;
+    }
+
     // Setup modals and interactions
     setupModals();
-    runTerminalSequence();
 
     // Render dynamic content
     renderProjects(data.projects);

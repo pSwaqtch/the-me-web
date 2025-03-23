@@ -353,57 +353,6 @@ body {
     color: var(--accent);
 }
 
-/* Terminal Effect */
-.terminal-container {
-    background: var(--terminal-bg);
-    border-radius: 10px;
-    margin-top: 2rem;
-    overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-}
-
-.terminal-header {
-    background: #2a2a2a;
-    padding: 0.5rem;
-    display: flex;
-    gap: 0.5rem;
-}
-
-.terminal-dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: #ff5f56;
-}
-
-.terminal-dot:nth-child(2) {
-    background: #ffbd2e;
-}
-
-.terminal-dot:nth-child(3) {
-    background: #27c93f;
-}
-
-.terminal-body {
-    padding: 1rem;
-    font-family: 'Courier New', monospace;
-    color: var(--terminal-text);
-}
-
-.line {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
-}
-
-.prompt {
-    color: var(--accent);
-}
-
-.cursor {
-    animation: blink 1s infinite;
-}
-
 /* Navigation Buttons */
 .nav-btn {
     background: var(--surface);
@@ -448,4 +397,36 @@ body {
         padding: 1rem;
         margin: 1rem;
     }
+}
+
+/* Add About Section Styles */
+.about-content {
+    padding: 2rem;
+    background: var(--surface);
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
+.about-content h2 {
+    color: var(--accent);
+    margin-bottom: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+}
+
+.about-content p {
+    line-height: 1.8;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+/* Remove these terminal-related styles */
+.terminal-container,
+.terminal-header,
+.terminal-dot,
+.terminal-body,
+.line,
+.prompt,
+.cursor {
+    display: none;
 } 

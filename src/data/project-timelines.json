@@ -1,0 +1,113 @@
+{
+  "project-timelines": {
+    "volumetric-display": {
+      "projectId": 2,
+      "timeline": [
+        {
+          "date": "2023-12-07",
+          "title": "Project Initiation",
+          "description": "Started research and initial concept development",
+          "type": "milestone"
+        },
+        {
+          "date": "2023-12-15",
+          "title": "CAD Design Phase",
+          "description": "Began detailed CAD modeling of the mechanical structure",
+          "type": "development",
+          "artifacts": ["Initial CAD models", "Component specifications"]
+        },
+        {
+          "date": "2024-01-05",
+          "title": "Slip Ring Design",
+          "description": "Design and simulation of custom slip ring system for power delivery",
+          "type": "development",
+          "artifacts": ["Slip ring schematics", "Simulation results"]
+        },
+        {
+          "date": "2024-01-20",
+          "title": "PCB Design",
+          "description": "Started designing the main control PCB and LED driver circuits",
+          "type": "development",
+          "artifacts": ["Circuit schematics", "PCB layout"]
+        },
+        {
+          "date": "2024-02-01",
+          "title": "First Prototype Assembly",
+          "description": "Assembly of mechanical components and initial testing",
+          "type": "milestone"
+        },
+        {
+          "date": "2024-02-15",
+          "title": "Motor Control System",
+          "description": "Implementation of precise motor control and timing system",
+          "type": "development",
+          "status": "in-progress"
+        }
+      ]
+    },
+    "gyro-pen": {
+      "projectId": 1,
+      "timeline": [
+        {
+          "date": "2024-01-15",
+          "title": "Project Start",
+          "description": "Initial concept development and research",
+          "type": "milestone"
+        },
+        {
+          "date": "2024-01-25",
+          "title": "Sensor Selection",
+          "description": "Testing and selection of MEMS gyroscope sensors",
+          "type": "development",
+          "artifacts": ["Sensor comparison data", "Test results"]
+        },
+        {
+          "date": "2024-02-10",
+          "title": "First Prototype Design",
+          "description": "3D modeling of pen housing and mechanical components",
+          "type": "development",
+          "artifacts": ["3D models", "Assembly diagrams"]
+        },
+        {
+          "date": "2024-02-20",
+          "title": "Control Circuit Design",
+          "description": "Design of stabilization control system",
+          "type": "development",
+          "status": "in-progress"
+        }
+      ]
+    },
+    "ramsey-visualizer": {
+      "projectId": 3,
+      "timeline": [
+        {
+          "date": "2024-02-01",
+          "title": "Project Launch",
+          "description": "Initial project setup and architecture planning",
+          "type": "milestone"
+        },
+        {
+          "date": "2024-02-10",
+          "title": "Core Algorithm Implementation",
+          "description": "Development of graph theory algorithms in Rust",
+          "type": "development",
+          "artifacts": ["Algorithm documentation", "Performance benchmarks"]
+        },
+        {
+          "date": "2024-02-20",
+          "title": "WebGL Visualization",
+          "description": "Implementation of 3D graph visualization using Three.js",
+          "type": "development",
+          "artifacts": ["Rendering engine code", "UI mockups"]
+        },
+        {
+          "date": "2024-03-01",
+          "title": "Beta Testing",
+          "description": "Initial release for testing and feedback",
+          "type": "milestone",
+          "status": "in-progress"
+        }
+      ]
+    }
+  }
+} 

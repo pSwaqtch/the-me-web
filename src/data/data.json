@@ -46,8 +46,30 @@
       "category": "Hardware",
       "description": "An innovative pen design incorporating gyroscopic technology for enhanced stability and precision in writing and drawing.",
       "status": "In Progress",
-      "images": [],
-      "technologies": ["Electronics", "3D Printing", "Sensor Integration", "Embedded Systems"]
+      "startDate": "2024-01-15",
+      "images": [
+        {
+          "url": "images/projects/gyro-pen/prototype.jpg",
+          "caption": "First prototype"
+        }
+      ],
+      "technologies": ["Electronics", "3D Printing", "Sensor Integration", "Embedded Systems"],
+      "documentation": {
+        "overview": "The Gyro Pen project aims to create a writing instrument that actively stabilizes itself using gyroscopic principles, making it easier for people with hand tremors or stability issues to write and draw with precision.",
+        "features": [
+          "Active stabilization using MEMS gyroscope",
+          "Rechargeable battery system",
+          "Customizable sensitivity settings",
+          "Ergonomic design for extended use"
+        ],
+        "challenges": [
+          "Miniaturizing the gyroscopic mechanism",
+          "Power consumption optimization",
+          "Weight distribution balance"
+        ]
+      },
+      "demoUrl": "",
+      "sourceUrl": "https://github.com/pSwaqtch/gyro-pen"
     },
     {
       "id": 2,
@@ -55,8 +77,30 @@
       "category": "Hardware",
       "description": "Creating three-dimensional visual displays in space using advanced optics and mechanical systems for immersive data visualization.",
       "status": "In Development",
-      "images": [],
-      "technologies": ["Optics", "Electronics", "Mechanical Design", "3D Modeling"]
+      "startDate": "2023-12-07",
+      "images": [
+        {
+          "url": "images/projects/volumetric-display/concept.jpg",
+          "caption": "Design concept"
+        }
+      ],
+      "technologies": ["Optics", "Electronics", "Mechanical Design", "3D Modeling"],
+      "documentation": {
+        "overview": "The Volumetric Display project creates true 3D images in space without requiring special glasses or headsets. It uses a combination of high-speed rotating screens and precisely timed LED arrays to create persistent 3D images in mid-air.",
+        "features": [
+          "360-degree viewable 3D images",
+          "Real-time rendering capability",
+          "Multiple color support",
+          "Modular design for scaling"
+        ],
+        "challenges": [
+          "Synchronization of display elements",
+          "Mechanical stability at high RPM",
+          "Power delivery to rotating components"
+        ]
+      },
+      "demoUrl": "",
+      "sourceUrl": "https://github.com/pSwaqtch/volumetric-display"
     },
     {
       "id": 3,
@@ -64,9 +108,30 @@
       "category": "Software",
       "description": "Interactive graph visualization tool for exploring Ramsey's theorem, built with Rust and Three.js for high-performance rendering.",
       "status": "Active",
+      "startDate": "2024-02-01",
+      "images": [
+        {
+          "url": "images/projects/ramsey-visualizer/interface.jpg",
+          "caption": "Main interface"
+        }
+      ],
       "technologies": ["Rust", "Three.js", "Graph Theory", "WebGL"],
-      "demoUrl": "",
-      "sourceUrl": ""
+      "documentation": {
+        "overview": "This web-based tool helps visualize and understand Ramsey's theorem through interactive graph manipulation and automatic theorem checking. It's designed to be both educational and useful for research purposes.",
+        "features": [
+          "Interactive graph creation and editing",
+          "Real-time theorem verification",
+          "Multiple visualization modes",
+          "Export functionality for research"
+        ],
+        "challenges": [
+          "Performance optimization for large graphs",
+          "Intuitive UI for complex mathematical concepts",
+          "Efficient graph algorithm implementation"
+        ]
+      },
+      "demoUrl": "https://ramsey-viz.pswaqtch.dev",
+      "sourceUrl": "https://github.com/pSwaqtch/ramsey-visualizer"
     }
   ],
   "theme": {

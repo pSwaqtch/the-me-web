@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pSwaqtch | Maker & CS Student</title>
+    <title>Projects | pSwaqtch</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/projects.css">
 </head>
 <body>
     <div class="retro-container" id="mainContainer">
@@ -19,8 +20,8 @@
             </div>
             <nav class="skeu-nav">
                 <ul>
-                    <li><button class="nav-btn active">Home</button></li>
-                    <li><a href="projects.html" class="nav-btn">Projects</a></li>
+                    <li><a href="index.html" class="nav-btn">Home</a></li>
+                    <li><a href="projects.html" class="nav-btn active">Projects</a></li>
                     <li><button class="nav-btn" data-modal="skills">Skills</button></li>
                     <li><button class="nav-btn" data-modal="contact">Contact</button></li>
                     <li><button id="themeToggle" class="nav-btn theme-btn">🌙</button></li>
@@ -28,63 +29,46 @@
             </nav>
         </header>
 
-        <!-- Main content -->
-        <main>
-            <!-- Hero section with skeuomorphic card -->
-            <section id="hero" class="skeu-card">
-                <div class="hero-content">
-                    <h2 class="glitch-text">Krupal Virani</h2>
-                    <p class="neo-text">Maker • Hardware Enthusiast • CS Student</p>
+        <!-- Projects Layout -->
+        <div class="projects-layout">
+            <!-- Sidebar with project cards -->
+            <aside class="projects-sidebar">
+                <div class="sidebar-content" id="projectsList">
+                    <!-- Project cards will be inserted here -->
                 </div>
-            </section>
+            </aside>
 
-            <!-- About section moved to main page -->
-            <section id="about" class="skeu-card">
-                <div class="about-content">
-                    <h2>About Me</h2>
-                    <div id="aboutContent">
-                        <!-- Content will be dynamically inserted -->
+            <!-- Main content area -->
+            <main class="projects-main">
+                <!-- Timeline section -->
+                <section class="timeline-section skeu-card">
+                    <h2>Project Timeline</h2>
+                    <div class="timeline" id="projectTimeline">
+                        <!-- Timeline will be inserted here -->
                     </div>
-                </div>
-            </section>
-        </main>
+                </section>
 
-        <!-- Footer with retro styling -->
+                <!-- Project details section -->
+                <section class="project-details skeu-card">
+                    <div id="projectContent">
+                        <!-- Project content will be inserted here -->
+                        <div class="placeholder-content">
+                            <h2>Select a Project</h2>
+                            <p>Choose a project from the sidebar to view its details.</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <!-- Footer -->
         <footer class="retro-footer">
             <p>© 2024 pSwaqtch | Built with 💜 and retro vibes</p>
         </footer>
     </div>
 
-    <!-- Modal Templates -->
+    <!-- Modals -->
     <div class="modal-container" id="modalContainer">
-        <!-- About Modal -->
-        <div class="modal" id="aboutModal">
-            <div class="modal-content skeu-card">
-                <div class="modal-header">
-                    <h2>About Me</h2>
-                    <button class="close-btn">×</button>
-                </div>
-                <div class="modal-body" id="aboutContent">
-                    <!-- Content will be dynamically inserted -->
-                </div>
-            </div>
-        </div>
-
-        <!-- Projects Modal -->
-        <div class="modal" id="projectsModal">
-            <div class="modal-content neo-card">
-                <div class="modal-header">
-                    <h2>Projects</h2>
-                    <button class="close-btn">×</button>
-                </div>
-                <div class="modal-body">
-                    <div class="projects-grid" id="projectsContainer">
-                        <!-- Projects will be dynamically inserted -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <!-- Skills Modal -->
         <div class="modal" id="skillsModal">
             <div class="modal-content skeu-card">
@@ -125,5 +109,6 @@
     </div>
 
     <script src="js/main.js" type="module"></script>
+    <script src="js/projects.js" type="module"></script>
 </body>
 </html> 
