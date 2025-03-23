@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pSwaqtch | Maker & CS Student</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛠️</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="retro-container" id="mainContainer">
+        <!-- Header with neomorphic navigation -->
+        <header class="neo-header">
+            <div class="logo-container">
+                <h1 class="retro-3d">pSwaqtch</h1>
+            </div>
+            <nav class="skeu-nav">
+                <ul>
+                    <li><button class="nav-btn active" data-modal="about">About</button></li>
+                    <li><button class="nav-btn" data-modal="projects">Projects</button></li>
+                    <li><button class="nav-btn" data-modal="skills">Skills</button></li>
+                    <li><button class="nav-btn" data-modal="contact">Contact</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <main>
+            <!-- Hero section with skeuomorphic card -->
+            <section id="hero" class="skeu-card">
+                <div class="hero-content">
+                    <h2 class="glitch-text">Krupal Virani</h2>
+                    <p class="neo-text">Maker • Hardware Enthusiast • CS Student</p>
+                    <div class="terminal-container">
+                        <div class="terminal-header">
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                            <span class="terminal-dot"></span>
+                        </div>
+                        <div class="terminal-body" id="terminalBody">
+                            <div class="line">
+                                <span class="prompt">$</span>
+                                <span class="command" id="typingText"></span>
+                                <span class="cursor">█</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer with retro styling -->
+        <footer class="retro-footer">
+            <p>© 2024 pSwaqtch | Built with 💜 and retro vibes</p>
+        </footer>
+    </div>
+
+    <!-- Modal Templates -->
+    <div class="modal-container" id="modalContainer">
+        <!-- About Modal -->
+        <div class="modal" id="aboutModal">
+            <div class="modal-content skeu-card">
+                <div class="modal-header">
+                    <h2>About Me</h2>
+                    <button class="close-btn">×</button>
+                </div>
+                <div class="modal-body" id="aboutContent">
+                    <!-- Content will be dynamically inserted -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Modal -->
+        <div class="modal" id="projectsModal">
+            <div class="modal-content neo-card">
+                <div class="modal-header">
+                    <h2>Projects</h2>
+                    <button class="close-btn">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="projects-grid" id="projectsContainer">
+                        <!-- Projects will be dynamically inserted -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills Modal -->
+        <div class="modal" id="skillsModal">
+            <div class="modal-content skeu-card">
+                <div class="modal-header">
+                    <h2>Skills & Tools</h2>
+                    <button class="close-btn">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="skills-container" id="skillsContainer">
+                        <!-- Skills will be dynamically inserted -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Modal -->
+        <div class="modal" id="contactModal">
+            <div class="modal-content neo-card">
+                <div class="modal-header">
+                    <h2>Get in Touch</h2>
+                    <button class="close-btn">×</button>
+                </div>
+                <div class="modal-body">
+                    <div class="contact-container">
+                        <div class="social-links" id="socialLinks">
+                            <!-- Social links will be dynamically inserted -->
+                        </div>
+                        <div class="email-container">
+                            <div class="retro-email">
+                                <span class="email-icon">✉</span>
+                                <a href="mailto:krupalvirani@gmail.com">krupalvirani@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+</html> 

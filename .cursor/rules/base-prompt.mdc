@@ -1,0 +1,64 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Create a personal portfolio website with a nostalgic early 2000s web design aesthetic inspired by Alibaba.com circa 2000, but enhanced with modern skeuomorphic and neomorphic elements. The design should include:
+
+1. Layout Structure:
+   - Classic table-based layout with clearly defined sections
+   - Header with navigation bar using colored button-like tabs
+   - Sidebar with personal stats/information
+   - Main content area with project showcases
+   - Footer with links and copyright information
+
+2. Color Scheme:
+   - Primary colors: Orange (#FF7700) headers and accents
+   - Secondary colors: Blue (#003366) for navigation elements
+   - Light yellow (#FFFDE8) for information boxes
+   - White backgrounds with light gray borders
+
+3. Skeuomorphic Elements:
+   - 3D button effects with beveled edges and subtle drop shadows
+   - Paper/document-like textures for content areas
+   - Folder tab navigation elements
+   - "Embossed" headings with subtle highlights and shadows
+
+4. Neomorphic Elements:
+   - Soft UI components for feature cards
+   - Light source consistent from top-left
+   - Subtle extrusion effects on information boxes
+   - Gentle curves and rounded corners on modern elements
+
+5. Typography:
+   - Main headings: Arial or Verdana, bold
+   - Body text: Simple sans-serif fonts
+   - Use table cells for text alignment
+   - Maintain the classic "Tidings" or "News" section with dates
+
+6. Navigation:
+   - Top horizontal navigation bar with colored tabs
+   - Side menu with categorized links
+   - "Home" button clearly visible
+
+7. Content Sections:
+   - "About Me" section (similar to "About Alibaba")
+   - "Projects" section with categorized listings and numbers in parentheses
+   - "Latest News" section with dates
+   - "Contact Information" in sidebar
+
+8. Interactive Elements:
+   - Search box with dropdown selection
+   - Simple form inputs with neomorphic styling
+   - "Sign In" area
+   - Featured project showcase
+
+9. Decorative Elements:
+   - Simple icons for categories
+   - Horizontal dividers between sections
+   - Small "NEW" markers for recent additions
+   - Statistics counter for site visits or projects
+
+10. Responsive Considerations:
+    - While maintaining the retro aesthetic, ensure the design can adapt to modern devices
+    - Create breakpoints that preserve the table-like structure on smaller screens

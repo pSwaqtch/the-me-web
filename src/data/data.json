@@ -1,0 +1,86 @@
+{
+  "personalInfo": {
+    "name": "Krupal Virani",
+    "penName": "pSwaqtch",
+    "title": "Maker & Computer Science Student",
+    "education": "B.Tech CSE - 4th Semester",
+    "bio": "A passionate maker and computer science enthusiast exploring the intersection of hardware and software. Currently working on innovative projects combining physical computing with software solutions."
+  },
+  "contact": {
+    "email": "krupalvirani@gmail.com",
+    "social": {
+      "twitter": "https://x.com/pSwaqtch",
+      "mastodon": "https://mastodon.social/@pSwaqtch",
+      "reddit": "https://www.reddit.com/user/pSwaqtch",
+      "instagram": "https://www.instagram.com/pSwaqtch",
+      "linkedin": "https://www.linkedin.com/in/krupal-virani-9092b82a0/"
+    }
+  },
+  "skills": {
+    "hardware": [
+      "Hardware Prototyping",
+      "Electronics",
+      "3D Printing",
+      "Sensor Integration",
+      "Circuit Design"
+    ],
+    "software": [
+      "Rust",
+      "Three.js",
+      "Embedded Systems",
+      "Graph Theory",
+      "WebGL"
+    ],
+    "tools": [
+      "CAD Software",
+      "Circuit Design",
+      "Version Control",
+      "3D Modeling",
+      "PCB Design"
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Gyro Pen",
+      "category": "Hardware",
+      "description": "An innovative pen design incorporating gyroscopic technology for enhanced stability and precision in writing and drawing.",
+      "status": "In Progress",
+      "images": [],
+      "technologies": ["Electronics", "3D Printing", "Sensor Integration", "Embedded Systems"]
+    },
+    {
+      "id": 2,
+      "title": "Volumetric Display",
+      "category": "Hardware",
+      "description": "Creating three-dimensional visual displays in space using advanced optics and mechanical systems for immersive data visualization.",
+      "status": "In Development",
+      "images": [],
+      "technologies": ["Optics", "Electronics", "Mechanical Design", "3D Modeling"]
+    },
+    {
+      "id": 3,
+      "title": "Ramsey's Theorem Visualizer",
+      "category": "Software",
+      "description": "Interactive graph visualization tool for exploring Ramsey's theorem, built with Rust and Three.js for high-performance rendering.",
+      "status": "Active",
+      "technologies": ["Rust", "Three.js", "Graph Theory", "WebGL"],
+      "demoUrl": "",
+      "sourceUrl": ""
+    }
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#6E44FF",
+      "secondary": "#FF44E3",
+      "accent": "#44FFD1",
+      "background": "#1A1A2E",
+      "surface": "#2A2A3E",
+      "text": "#FFFFFF"
+    },
+    "fonts": {
+      "heading": "Orbitron",
+      "body": "Inter"
+    }
+  }
+} 
